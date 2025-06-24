@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preload" href="fonts\Montserrat-Black.woff2" as="font" type="font/woff2" crossorigin>
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <h1 class="heading">Kalkulator Sederhana</h1>
+    <form class="form-perhtiungan" method="post" >
+        <div class="input">
+            <input type="number" id="angkaPertama" name="angkaSatu" placeholder="Masukkan Angka Pertama" required>
+            <select id='operator' name="operator" required>
+                <option name="+">+</option>
+                <option name="-">-</option>
+                <option name="/">/</option>
+                <option name="*">*</option>
+            </select>
+            <input type="number" id="angkaKedua"  name="angkaDua"  placeholder="Masukkan Angka Kedua" required><br>
+        </div>
+        <div class="tombol">
+            <button id="tombolSubmit" type="submit">kirim</button>
+        </div>
+    </form>
+    <div id="hasilPerhitungan" class="hasilPerhitungan"></div>
+</body>
+</html>

@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+    background-color: white;
+}
+
+@font-face{
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Black.woff2") format("woff2");
+    font-weight: normal;
+    font-style: normal;
+}
+
+.heading{
+    font-family: "Montserrat";
+    text-align: center;
+    margin-top: 100px;
+    font-weight: 900;
+    font-style: normal;
+    color: black;
+}
+
+.input{
+    display: flex;
+    justify-content: center;
+    padding: 20px 50px;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.tombol{    
+    display: flex;
+    justify-content: center;
+    margin-right: 48px;
+} 
+
+.input input, .input select{
+    padding: 30px 60px;
+}
+
+.tombol button {
+  font-size: 18px;         /* Ukuran tulisan */
+  padding: 10px 25px;      /* Supaya gak terlalu tinggi */
+  width: 160px;            /* Ukuran lebar tetap */
+  height: 80px;            /* Tinggi menyesuaikan */
+  background-color: black;  /* Warna biru muda */
+  border: none;
+  border-radius: 8px;      /* Biar agak rounded */
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: Montserrat;
+  margin-top: 20px;
+  color: white;
+}
+
+.form-perhitungan{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.tombol button:hover {
+  background-color: white;
+  color: black;
+}
+
+.hasilPerhitungan{
+  color:black;
+  background-color: white;
+  padding: 20px 40px;
+  font-family: Montserrat;
+  text-align: center;
+  margin-top: 25px;
+  font-size: 32px;
+  font-weight: bold;
+  margin-right: 48px;
+}
