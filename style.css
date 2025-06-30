@@ -15,7 +15,7 @@ body{
     font-style: normal;
 }
 
-.header{
+.headerKalku{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -23,14 +23,14 @@ body{
     padding: 35px 20px 35px 20px;
 }
 
-.nama{
+.namaKalku{
     color: white;
     margin-left: 10px;
     font-family: "Montserrat";
     font-size: 20px;
 }
 
-.home{
+.homeKalku{
     text-decoration: none;
     color: white;
     margin-right: 10px;
